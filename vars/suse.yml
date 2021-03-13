@@ -19,6 +19,4 @@ _zypper_repository:
     repo: "http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed"
     state: "present"
 
-_zypper:
-  - { state: "latest", name: "ffmpeg" }
-  - { state: "latest", name: "obs-studio" }
+_zypper: []
