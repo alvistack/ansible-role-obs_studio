@@ -13,16 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBC7345F522079769F5BBE987EFC71127F425E228"
-    id: "BC7345F522079769F5BBE987EFC71127F425E228"
-    state: "present"
-
-_apt_repository:
-  - repo: "deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu hirsute main"
-    state: "present"
-
-_apt:
-  - { state: "latest", name: "ffmpeg" }
-  - { state: "latest", name: "obs-studio" }
