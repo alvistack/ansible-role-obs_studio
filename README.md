@@ -1,13 +1,9 @@
 # Ansible Role for OBS Studio
 
-[![Gitlab pipeline
-status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-obs_studio/master)](https://gitlab.com/alvistack/ansible-role-obs_studio/-/pipelines)
-[![GitHub
-release](https://img.shields.io/github/release/alvistack/ansible-role-obs_studio.svg)](https://github.com/alvistack/ansible-role-obs_studio/releases)
-[![GitHub
-license](https://img.shields.io/github/license/alvistack/ansible-role-obs_studio.svg)](https://github.com/alvistack/ansible-role-obs_studio/blob/master/LICENSE)
-[![Ansible
-Role](https://img.shields.io/badge/galaxy-alvistack.obs_studio-blue.svg)](https://galaxy.ansible.com/alvistack/obs_studio)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-obs_studio/master)](https://gitlab.com/alvistack/ansible-role-obs_studio/-/pipelines)
+[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-obs_studio.svg)](https://github.com/alvistack/ansible-role-obs_studio/releases)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-obs_studio.svg)](https://github.com/alvistack/ansible-role-obs_studio/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.obs_studio-blue.svg)](https://galaxy.ansible.com/alvistack/obs_studio)
 
 Ansible Role for OBS Studio Installation.
 
@@ -43,8 +39,7 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY
-    4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
