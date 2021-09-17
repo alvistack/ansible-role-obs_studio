@@ -15,12 +15,14 @@
 # limitations under the License.
 
 _apt_key:
-  - url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBC7345F522079769F5BBE987EFC71127F425E228"
+  - keyring: "/etc/apt/trusted.gpg.d/obs-studio.gpg"
+    url: "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xBC7345F522079769F5BBE987EFC71127F425E228"
     id: "BC7345F522079769F5BBE987EFC71127F425E228"
     state: "present"
 
 _apt_repository:
-  - repo: "deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu focal main"
+  - filename: "obs-studio"
+    repo: "deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu focal main"
     state: "present"
 
 _apt:
