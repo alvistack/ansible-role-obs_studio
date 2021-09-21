@@ -1,5 +1,7 @@
 # Ansible Role for OBS Studio
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-obs_studio/master)](https://gitlab.com/alvistack/ansible-role-obs_studio/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-obs_studio.svg)](https://github.com/alvistack/ansible-role-obs_studio/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-obs_studio.svg)](https://github.com/alvistack/ansible-role-obs_studio/blob/master/LICENSE)
