@@ -22,7 +22,7 @@ _apt_key:
 
 _apt_repository:
   - filename: "obs-studio"
-    repo: "deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu hirsute main"
+    repo: "deb http://ppa.launchpad.net/obsproject/obs-studio/ubuntu impish main"
     state: "present"
 
 _apt:
