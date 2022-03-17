@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: obs --version
-      command: obs --version
+      ansible.builtin.command: obs --version
       register: result
       changed_when: result is not succeeded
