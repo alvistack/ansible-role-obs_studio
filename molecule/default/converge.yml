@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: obs_studio
-      tags: obs_studio
+        name: alvistack.obs_studio
+      tags: alvistack.obs_studio
