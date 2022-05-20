@@ -37,5 +37,5 @@ _rpm_download:
     checksum: "e8a6a820da2132710c6bc367a6fc1e9311a765334b97ee7fed90cb834f1fadbc"
 
 _yum:
-  - { state: "latest", name: "ffmpeg", enablerepo: "codeready-builder-beta-for-rhel-9-x86_64-rpms" }
+  - { state: "latest", name: "ffmpeg", enablerepo: "codeready-builder-for-rhel-9-x86_64-rpms" }
   - { state: "latest", name: "obs-studio" }
