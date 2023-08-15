@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: obs --version
+    - name: flatpak info com.obsproject.Studio
       ansible.builtin.command:
-        cmd: obs --version
+        cmd: flatpak info com.obsproject.Studio
       register: result
       changed_when: result is not succeeded
