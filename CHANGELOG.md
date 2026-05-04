@@ -1,4 +1,4 @@
-# Ansible Role for OBS Studio
+# Ansible Role for OBS Studio with Flatpak
 
 ## 13.6.0 - TBC
 

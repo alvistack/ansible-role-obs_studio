@@ -15,10 +15,10 @@
 # limitations under the License.
 
 galaxy_info:
-  role_name: obs_studio
+  role_name: flatpak_obs_studio
   namespace: alvistack
   author: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
-  description: Ansible Role for OBS Studio Installation
+  description: Ansible Role for OBS Studio with Flatpak
   company: PantaRei Design
   license: Apache-2.0
   min_ansible_version: "4.10"
